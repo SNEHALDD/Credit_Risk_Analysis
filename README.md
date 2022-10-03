@@ -113,5 +113,5 @@ The EasyEnsembleClassifier algorithm
 
 If we compare Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier, EasyEnsembleClassifier algorithm performs best. it gives accuracy of 92%. 
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary: 
 After considering the balanced accuracy score of all the models, Easy Ensemble AdaBoost classifier proves to be the best machine learning model with this dataset since it is giving us the best accuracy among all which is 92%. I would suggest that Easy Ensemble AdaBoost classifier can be the best machine learning model.
