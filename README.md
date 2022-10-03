@@ -27,11 +27,11 @@ Deliverable 4: A Written Report on the Credit Risk Analysis (README.md)
 - An imbalanced classification report
 <img width="760" alt="Naive Random Oversampling" src="https://user-images.githubusercontent.com/106944351/193426221-d5d40804-aab5-4514-b7d4-ef0cca2b1463.png">
 
-Accuracy Score: 64.5%
-Precision High Risk: 1%
-Precision Low Risk: 100%
-Recall High Risk: 61%
-Recall Low Risk: 68%
+- Accuracy Score: 64.5%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 61%
+- Recall Low Risk: 68%
 
 --- Oversampling using SMOTE Oversampling
 - An accuracy score for the model
@@ -39,11 +39,11 @@ Recall Low Risk: 68%
 - An imbalanced classification report
 <img width="751" alt="SMOTE Oversampling" src="https://user-images.githubusercontent.com/106944351/193426234-1b6a8588-b168-4a29-b56e-4cd1f0c81a6a.png">
 
-Accuracy Score: 62.3%
-Precision High Risk: 1%
-Precision Low Risk: 100%
-Recall High Risk: 61%
-Recall Low Risk: 64%
+- Accuracy Score: 62.3%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 61%
+- Recall Low Risk: 64%
 
 If we compare naive random oversampling algorithm and the SMOTE algorithm, both gives almost similar results. Naive Random Oversampling gives better accuracy which is 64.5%.
 
@@ -53,11 +53,11 @@ If we compare naive random oversampling algorithm and the SMOTE algorithm, both 
 - An imbalanced classification report
 <img width="758" alt="Undersampling using Cluster Centroid Algorithm" src="https://user-images.githubusercontent.com/106944351/193426254-5426b6de-a9f4-4d49-a6ab-e9685bfae995.png">
 
-Accuracy Score: 62.3%
-Precision High Risk: 1%
-Precision Low Risk: 100%
-Recall High Risk: 61%
-Recall Low Risk: 57%
+- Accuracy Score: 62.3%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 61%
+- Recall Low Risk: 57%
 
 If we compare Cluster Centroid Algorithm with naive random oversampling algorithm and the SMOTE algorithm, again Naive Random Oversampling gives better accuracy which is 64.5%.
 
@@ -69,11 +69,11 @@ Combination Over and under sampling algorithm
 - An imbalanced classification report
 <img width="740" alt="SMOTEEN - Over and under sampling algorithm" src="https://user-images.githubusercontent.com/106944351/193426269-2a160e2a-4657-4cf2-8c36-a41e154f10b6.png">
 
-Accuracy Score: 59%
-Precision High Risk: 1%
-Precision Low Risk: 100%
-Recall High Risk: 70%
-Recall Low Risk: 58%
+- Accuracy Score: 59%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 70%
+- Recall Low Risk: 58%
 
 If we compare SMOTEENN algorithm with Cluster Centroid Algorithm, naive random oversampling algorithm and the SMOTE algorithm, again Naive Random Oversampling gives better accuracy which is 64.5% which is higher that all.
 
@@ -91,11 +91,11 @@ The BalancedRandomForestClassifier algorithm:
 - The features are sorted in descending order by feature importance
 <img width="696" alt="BalancedRandomForestClassifier-features" src="https://user-images.githubusercontent.com/106944351/193426323-496155fa-fca1-4df3-b435-3841a4b1c6ec.png">
 
-Accuracy Score: 66%
-Precision High Risk: 72%
-Precision Low Risk: 100%
-Recall High Risk: 32%
-Recall Low Risk: 100%
+- Accuracy Score: 66%
+- Precision High Risk: 72%
+- Precision Low Risk: 100%
+- Recall High Risk: 32%
+- Recall Low Risk: 100%
 
 
 The EasyEnsembleClassifier algorithm
@@ -105,11 +105,11 @@ The EasyEnsembleClassifier algorithm
 - An imbalanced classification report 
 <img width="791" alt="EasyEnsembleClassifier" src="https://user-images.githubusercontent.com/106944351/193426352-750abd9a-0b1f-4c8f-ac50-a44cb5b0a45f.png">
 
-Accuracy Score: 92%
-Precision High Risk: 7%
-Precision Low Risk: 100%
-Recall High Risk: 91%
-Recall Low Risk: 100%
+- Accuracy Score: 92%
+- Precision High Risk: 7%
+- Precision Low Risk: 100%
+- Recall High Risk: 91%
+- Recall Low Risk: 100%
 
 If we compare Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier, EasyEnsembleClassifier algorithm performs best. it gives accuracy of 92%. 
 
